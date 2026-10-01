@@ -1,10 +1,175 @@
 version: 2
 updates:
-- package-ecosystem: cargo
-  directory: "/"
-  schedule:
-    interval: daily
-- package-ecosystem: github-actions
-  directory: "/"
-  schedule:
-    interval: daily
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "cargo"
+    directory: "/MarcoPolo"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/OnnxDemo"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/actixtorch"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/async-lambda-s3"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/awsmetas3"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/calc-microservice"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/checksums3"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/clilog"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/dedupe"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/distroless-cli"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/distroless-web"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/dscli"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/efs-lister"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/hello"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/hello-wasm-bindgen"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/hf-qa"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/hfdemo"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/hfqa"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/lambda-heavy-compute"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/lambdathreads"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/linfa-kmeans"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/marco-polo-lambda"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/new-lambda-project"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/onnx-efs-lambda"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/onnx-ms-squeeznet"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/parallel"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/polarsdf"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/pyrust"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/pytorch-binary-cli"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/pytorch-rust-docker"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/pytorch-rust-example"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/regression-cli"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/rrgame"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/rust-aws-lambda"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/rust-ideas"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/sqlite-hf"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/step-functions-rust/rust-marco"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/step-functions-rust/rust-polo"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/string_sum"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/tf-rust-example"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/tyrscontainer"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cargo"
+    directory: "/webdocker"
+    schedule:
+      interval: "daily"
