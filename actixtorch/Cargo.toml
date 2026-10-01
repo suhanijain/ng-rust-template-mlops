@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.40"
-tch = "0.10.1"
+tch = "0.26.0"
 actix-web = "4"
