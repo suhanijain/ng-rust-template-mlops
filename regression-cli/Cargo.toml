@@ -8,5 +8,5 @@ edition = "2021"
 [dependencies]
 linfa = "0.6.1"
 linfa-datasets = { version = "0.6.1", features = ["diabetes"] }
-linfa-elasticnet = "0.6.1"
+linfa-elasticnet = "0.8.1"
 clap = { version = "4.0.32", features = ["derive"] }
