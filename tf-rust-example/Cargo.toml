@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 clap = {version="4.0.32", features=["derive"]}
-tensorflow = "0.19.1"
+tensorflow = "0.21.0"
